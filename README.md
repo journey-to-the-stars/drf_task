@@ -1,12 +1,4 @@
-# Task Tracker API (simplified)
-
-В этом репозитории папка `tasks` упрощена: в ней остались только
-- `admin.py`
-- `apps.py`
-- `models.py`
-- `serializers.py`
-- `urls.py`
-- `utils.py`
+# Task Tracker API
 
 Запуск локально (в каталоге django_endpoints):
 
@@ -21,4 +13,3 @@ python manage.py runserver
 
 Документация по API доступна по `/swagger/` и `/redoc/` (если установлены зависимости).
 
-Примечание: логика permissions и константы статусов/приоритетов теперь находятся в `tasks/utils.py`.
